@@ -30,7 +30,7 @@ const AnimatedSection = () => {
       <div
         key={i}
         className={`relative h-full w-full origin-center ${
-          depth % 2 === 0 ? "bg-gray-200" : "bg-white"
+          depth % 2 === 0 ? "bg-gray-900" : "bg-white"
         }`}
         style={{
           padding: "2vmin",
@@ -45,9 +45,9 @@ const AnimatedSection = () => {
   };
 
   return (
-    <div className="sticky top-0 h-screen bg-white">
+    <div className="sticky top-0 h-screen bg-white pt-60">
       <div
-        className="relative flex min-h-full flex-col items-center justify-center gap-4 overflow-hidden bg-white text-black space-y-6"
+        className="relative flex min-h-full flex-col items-center gap-4 overflow-hidden bg-white text-black space-y-6"
         style={sectionStyles}
       >
         <h1 className="text-center text-5xl font-black md:text-7xl">GENESIS</h1>
